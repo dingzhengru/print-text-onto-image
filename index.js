@@ -1,16 +1,8 @@
-# print-text-onto-image
-測試 Jimp 圖片處理
-
-```
-npm start
-```
-
-
-index.js
-```
 import Jimp from 'jimp'
 
 /*
+font
+
 FONT_SANS_8_BLACK
 FONT_SANS_10_BLACK
 FONT_SANS_12_BLACK
@@ -54,4 +46,3 @@ async function main() {
 }
 
 main()
-```

@@ -39,7 +39,9 @@ async function main() {
   // 將文字放在圖片上(字體, x, y, 文字, maxWidth, maxHeight)
   await image.print(font, 0, 50, 'Hello World!')
 
-  image.write('./image/newImage.jpg')
+  // await image.normalize()
+
+  image.write('./image/newImage-normalize.jpg')
 
   // 也有 Async 版的
   // await image.writeAsync('test/image.png')
